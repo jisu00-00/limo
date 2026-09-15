@@ -1,0 +1,766 @@
+[0.000000] (-) TimerEvent: {}
+[0.000855] (limo_car) JobQueued: {'identifier': 'limo_car', 'dependencies': OrderedDict()}
+[0.001081] (limo_description) JobQueued: {'identifier': 'limo_description', 'dependencies': OrderedDict()}
+[0.001180] (limo_msgs) JobQueued: {'identifier': 'limo_msgs', 'dependencies': OrderedDict()}
+[0.001336] (limo_base) JobQueued: {'identifier': 'limo_base', 'dependencies': OrderedDict([('limo_msgs', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs')])}
+[0.001430] (limo_msgs) JobStarted: {'identifier': 'limo_msgs'}
+[0.009923] (limo_car) JobStarted: {'identifier': 'limo_car'}
+[0.014726] (limo_description) JobStarted: {'identifier': 'limo_description'}
+[0.047764] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'cmake'}
+[0.051988] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060326] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'cmake'}
+[0.063233] (limo_car) Command: {'cmd': ['/usr/bin/cmake', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_car', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067425] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'cmake'}
+[0.070246] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098602] (-) TimerEvent: {}
+[0.199603] (-) TimerEvent: {}
+[0.300683] (-) TimerEvent: {}
+[0.402207] (-) TimerEvent: {}
+[0.502826] (-) TimerEvent: {}
+[0.585986] (limo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.586682] (limo_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.589024] (limo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.604314] (-) TimerEvent: {}
+[0.708230] (-) TimerEvent: {}
+[0.811951] (-) TimerEvent: {}
+[0.912638] (-) TimerEvent: {}
+[0.946420] (limo_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.949934] (limo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.952917] (limo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.983973] (limo_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.984207] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.988496] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.013574] (-) TimerEvent: {}
+[1.114611] (-) TimerEvent: {}
+[1.215607] (-) TimerEvent: {}
+[1.316605] (-) TimerEvent: {}
+[1.417609] (-) TimerEvent: {}
+[1.519614] (-) TimerEvent: {}
+[1.599917] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.606044] (limo_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.615897] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.619831] (limo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.620338] (-) TimerEvent: {}
+[1.620941] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.621404] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.623083] (limo_car) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.624163] (limo_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.624898] (limo_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.627694] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.629298] (limo_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.633055] (limo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.635646] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.635878] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.642036] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.720682] (-) TimerEvent: {}
+[1.821635] (-) TimerEvent: {}
+[1.930591] (-) TimerEvent: {}
+[2.031685] (-) TimerEvent: {}
+[2.133692] (-) TimerEvent: {}
+[2.193895] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.195839] (limo_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.211046] (limo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.211986] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.213001] (limo_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.213952] (limo_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.214364] (limo_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.215169] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.219010] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.224719] (limo_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.226120] (limo_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.234566] (-) TimerEvent: {}
+[2.242738] (limo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.245817] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.246065] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.254100] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.335602] (-) TimerEvent: {}
+[2.436607] (-) TimerEvent: {}
+[2.537606] (-) TimerEvent: {}
+[2.639612] (-) TimerEvent: {}
+[2.740626] (-) TimerEvent: {}
+[2.843607] (-) TimerEvent: {}
+[2.881717] (limo_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.894566] (limo_car) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.919731] (limo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.944571] (-) TimerEvent: {}
+[3.045622] (-) TimerEvent: {}
+[3.054697] (limo_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.057940] (limo_car) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.080252] (limo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.103302] (limo_car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.104951] (limo_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.121839] (limo_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.146574] (-) TimerEvent: {}
+[3.156112] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.161417] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.169149] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.186000] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.200486] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.227109] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.247609] (-) TimerEvent: {}
+[3.301874] (limo_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.320896] (limo_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.323246] (limo_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.324633] (limo_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.334631] (limo_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.338729] (limo_car) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.344838] (limo_car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.345310] (limo_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.348143] (limo_car) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.348452] (-) TimerEvent: {}
+[3.371804] (limo_car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.377733] (limo_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.384470] (limo_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.399363] (limo_description) StdoutLine: {'line': b'-- Build files have been written to: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description\n'}
+[3.406903] (limo_description) CommandEnded: {'returncode': 0}
+[3.412208] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'build'}
+[3.412559] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description', '--', '-j8', '-l8'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.416586] (limo_car) StdoutLine: {'line': b'-- Generating done\n'}
+[3.435201] (limo_car) StdoutLine: {'line': b'-- Build files have been written to: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car\n'}
+[3.443052] (limo_car) CommandEnded: {'returncode': 0}
+[3.443639] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'build'}
+[3.445831] (limo_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car', '--', '-j8', '-l8'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.448544] (-) TimerEvent: {}
+[3.549603] (-) TimerEvent: {}
+[3.651603] (-) TimerEvent: {}
+[3.678397] (limo_description) CommandEnded: {'returncode': 0}
+[3.680246] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'install'}
+[3.724871] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.730586] (limo_car) CommandEnded: {'returncode': 0}
+[3.733948] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'install'}
+[3.739569] (limo_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_car'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.752554] (-) TimerEvent: {}
+[3.781149] (limo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.784024] (limo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.791078] (limo_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.792089] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/display_models_diff.launch.py\n'}
+[3.795084] (limo_car) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.805791] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/__pycache__/roboracer_sim.launch.cpython-310.pyc\n'}
+[3.833348] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py\n'}
+[3.853561] (-) TimerEvent: {}
+[3.860904] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann.launch.py\n'}
+[3.869819] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.dae\n'}
+[3.901822] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann_gazebo.launch.py\n'}
+[3.905769] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.stl\n'}
+[3.940348] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/display_ackermann.launch.py\n'}
+[3.941025] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.dae\n'}
+[3.955563] (-) TimerEvent: {}
+[3.979111] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/four_diff.launch.py\n'}
+[3.985569] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.stl\n'}
+[4.020324] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_4diff_sim.launch.py\n'}
+[4.026801] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/model_display.rviz\n'}
+[4.056589] (-) TimerEvent: {}
+[4.061653] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_sim.launch.py\n'}
+[4.062428] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/urdf.rviz\n'}
+[4.084726] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.101686] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann.xacro\n'}
+[4.102273] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo\n'}
+[4.138968] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro\n'}
+[4.143715] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann_with_sensor.xacro\n'}
+[4.157559] (-) TimerEvent: {}
+[4.176875] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo\n'}
+[4.184543] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff.xacro\n'}
+[4.215937] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro\n'}
+[4.222545] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff_with_sensor.xacro\n'}
+[4.258605] (-) TimerEvent: {}
+[4.259016] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo\n'}
+[4.264839] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/sensor.xacro\n'}
+[4.298752] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo\n'}
+[4.303783] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.dae\n'}
+[4.338711] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro\n'}
+[4.343688] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.stl\n'}
+[4.359627] (-) TimerEvent: {}
+[4.377806] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_xacro.xacro\n'}
+[4.391821] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.dae\n'}
+[4.419128] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description\n'}
+[4.433823] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.stl\n'}
+[4.459740] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description\n'}
+[4.459975] (-) TimerEvent: {}
+[4.475681] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/gazebo.rviz\n'}
+[4.501730] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.sh\n'}
+[4.515764] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/urdf.rviz\n'}
+[4.543921] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv\n'}
+[4.554742] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_ackerman_base.xacro\n'}
+[4.560555] (-) TimerEvent: {}
+[4.580901] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.sh\n'}
+[4.593115] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_anteil.xacro\n'}
+[4.623410] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.dsv\n'}
+[4.631792] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_steering_hinge.xacro\n'}
+[4.661594] (-) TimerEvent: {}
+[4.662362] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.bash\n'}
+[4.670839] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer.world\n'}
+[4.701442] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.sh\n'}
+[4.709915] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer_heightmap.png\n'}
+[4.739927] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.zsh\n'}
+[4.751896] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/package_run_dependencies/limo_car\n'}
+[4.762556] (-) TimerEvent: {}
+[4.782801] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.dsv\n'}
+[4.795576] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/parent_prefix_path/limo_car\n'}
+[4.823960] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.dsv\n'}
+[4.836678] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.sh\n'}
+[4.863591] (-) TimerEvent: {}
+[4.864024] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/packages/limo_description\n'}
+[4.888985] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.dsv\n'}
+[4.902819] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake\n'}
+[4.927955] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.sh\n'}
+[4.945791] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake\n'}
+[4.964567] (-) TimerEvent: {}
+[4.969893] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.dsv\n'}
+[4.986774] (limo_description) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.xml\n'}
+[5.010778] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.bash\n'}
+[5.029654] (limo_description) CommandEnded: {'returncode': 0}
+[5.061170] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.sh\n'}
+[5.065559] (-) TimerEvent: {}
+[5.071709] (limo_description) JobEnded: {'identifier': 'limo_description', 'rc': 0}
+[5.096334] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.zsh\n'}
+[5.136752] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.dsv\n'}
+[5.166564] (-) TimerEvent: {}
+[5.175072] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.dsv\n'}
+[5.212825] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/packages/limo_car\n'}
+[5.250101] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig.cmake\n'}
+[5.267566] (-) TimerEvent: {}
+[5.285780] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig-version.cmake\n'}
+[5.324032] (limo_car) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.xml\n'}
+[5.352547] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.367291] (limo_car) CommandEnded: {'returncode': 0}
+[5.368185] (-) TimerEvent: {}
+[5.404472] (limo_car) JobEnded: {'identifier': 'limo_car', 'rc': 0}
+[5.468567] (-) TimerEvent: {}
+[5.569586] (-) TimerEvent: {}
+[5.673591] (-) TimerEvent: {}
+[5.774584] (-) TimerEvent: {}
+[5.808160] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.875563] (-) TimerEvent: {}
+[5.899449] (limo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.901665] (limo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.976566] (-) TimerEvent: {}
+[5.996730] (limo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.996941] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.997121] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.997251] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.077562] (-) TimerEvent: {}
+[6.085578] (limo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.178571] (-) TimerEvent: {}
+[6.280605] (-) TimerEvent: {}
+[6.381582] (-) TimerEvent: {}
+[6.440621] (limo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.476427] (limo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.481969] (limo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.482468] (-) TimerEvent: {}
+[6.484713] (limo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.502025] (limo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.582614] (-) TimerEvent: {}
+[6.650955] (limo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[6.683656] (-) TimerEvent: {}
+[6.696593] (limo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs\n'}
+[6.706006] (limo_msgs) CommandEnded: {'returncode': 0}
+[6.706567] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'build'}
+[6.708655] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', '--', '-j8', '-l8'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.784587] (-) TimerEvent: {}
+[6.887579] (-) TimerEvent: {}
+[6.988720] (-) TimerEvent: {}
+[7.002770] (limo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.089610] (-) TimerEvent: {}
+[7.098287] (limo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[7.118872] (limo_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.137665] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_limo_msgs\n'}
+[7.190607] (-) TimerEvent: {}
+[7.293752] (-) TimerEvent: {}
+[7.396614] (-) TimerEvent: {}
+[7.497625] (-) TimerEvent: {}
+[7.558885] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target limo_msgs__rs\n'}
+[7.566130] (limo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.566705] (limo_msgs) StdoutLine: {'line': b'creating limo_msgs.egg-info\n'}
+[7.567270] (limo_msgs) StdoutLine: {'line': b'writing limo_msgs.egg-info/PKG-INFO\n'}
+[7.568182] (limo_msgs) StdoutLine: {'line': b'writing dependency_links to limo_msgs.egg-info/dependency_links.txt\n'}
+[7.569968] (limo_msgs) StdoutLine: {'line': b'writing top-level names to limo_msgs.egg-info/top_level.txt\n'}
+[7.570441] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[7.576981] (limo_msgs) StdoutLine: {'line': b"reading manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[7.577708] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[7.583636] (limo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o\x1b[0m\n'}
+[7.598586] (-) TimerEvent: {}
+[7.599870] (limo_msgs) StdoutLine: {'line': b'[ 12%] Built target limo_msgs__cpp\n'}
+[7.656588] (limo_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_limo_msgs_egg\n'}
+[7.696075] (limo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.696516] (limo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.699699] (-) TimerEvent: {}
+[7.705567] (limo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.800611] (-) TimerEvent: {}
+[7.901617] (-) TimerEvent: {}
+[7.942450] (limo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.002609] (-) TimerEvent: {}
+[8.103617] (-) TimerEvent: {}
+[8.145713] (limo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[8.170739] (limo_msgs) StdoutLine: {'line': b'[ 28%] Built target limo_msgs__rosidl_generator_c\n'}
+[8.198813] (limo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o\x1b[0m\n'}
+[8.204765] (-) TimerEvent: {}
+[8.247983] (limo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o\x1b[0m\n'}
+[8.280609] (limo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.294796] (limo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.298264] (limo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.305568] (-) TimerEvent: {}
+[8.406693] (-) TimerEvent: {}
+[8.507616] (-) TimerEvent: {}
+[8.609622] (-) TimerEvent: {}
+[8.710675] (-) TimerEvent: {}
+[8.811980] (-) TimerEvent: {}
+[8.834641] (limo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[8.870470] (limo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o\x1b[0m\n'}
+[8.907306] (limo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.912570] (-) TimerEvent: {}
+[8.950794] (limo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.013614] (-) TimerEvent: {}
+[9.091456] (limo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.114823] (-) TimerEvent: {}
+[9.171027] (limo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.178000] (limo_msgs) StdoutLine: {'line': b'[ 62%] Built target limo_msgs__rosidl_typesupport_cpp\n'}
+[9.209618] (limo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.216352] (-) TimerEvent: {}
+[9.243047] (limo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.316615] (-) TimerEvent: {}
+[9.374898] (limo_msgs) StdoutLine: {'line': b'[ 68%] Built target limo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.417814] (-) TimerEvent: {}
+[9.422141] (limo_msgs) StdoutLine: {'line': b'[ 68%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.454596] (limo_msgs) StdoutLine: {'line': b'[ 68%] Built target limo_msgs__rosidl_typesupport_c\n'}
+[9.471385] (limo_msgs) StdoutLine: {'line': b'[ 68%] Built target limo_msgs__rosidl_typesupport_introspection_c\n'}
+[9.520778] (-) TimerEvent: {}
+[9.621610] (-) TimerEvent: {}
+[9.719602] (limo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.724746] (-) TimerEvent: {}
+[9.830593] (-) TimerEvent: {}
+[9.923458] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.931561] (-) TimerEvent: {}
+[10.033572] (-) TimerEvent: {}
+[10.088320] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs\n'}
+[10.134568] (-) TimerEvent: {}
+[10.235570] (-) TimerEvent: {}
+[10.255088] (limo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.336565] (-) TimerEvent: {}
+[10.437581] (-) TimerEvent: {}
+[10.538574] (-) TimerEvent: {}
+[10.639611] (-) TimerEvent: {}
+[10.682597] (limo_msgs) StdoutLine: {'line': b'[ 75%] Built target limo_msgs__py\n'}
+[10.740577] (-) TimerEvent: {}
+[10.841569] (-) TimerEvent: {}
+[10.853372] (limo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o\x1b[0m\n'}
+[10.942567] (-) TimerEvent: {}
+[11.043600] (-) TimerEvent: {}
+[11.145576] (-) TimerEvent: {}
+[11.233833] (limo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[11.246553] (-) TimerEvent: {}
+[11.347570] (-) TimerEvent: {}
+[11.422101] (limo_msgs) StdoutLine: {'line': b'[ 81%] Built target limo_msgs__rosidl_generator_py\n'}
+[11.449142] (-) TimerEvent: {}
+[11.549593] (-) TimerEvent: {}
+[11.622565] (limo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.627568] (limo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.632335] (limo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.651594] (-) TimerEvent: {}
+[11.753680] (-) TimerEvent: {}
+[11.854779] (-) TimerEvent: {}
+[11.959615] (-) TimerEvent: {}
+[12.033614] (limo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.044605] (limo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.053572] (limo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.061556] (-) TimerEvent: {}
+[12.162605] (-) TimerEvent: {}
+[12.263977] (-) TimerEvent: {}
+[12.267558] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.270315] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[12.277802] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_c__pyext\n'}
+[12.325487] (limo_msgs) CommandEnded: {'returncode': 0}
+[12.326819] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'install'}
+[12.327132] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.364767] (-) TimerEvent: {}
+[12.376936] (limo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.380055] (limo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.384338] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs\n'}
+[12.424894] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h\n'}
+[12.457768] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h\n'}
+[12.465643] (-) TimerEvent: {}
+[12.490709] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h\n'}
+[12.523387] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h\n'}
+[12.556114] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.566553] (-) TimerEvent: {}
+[12.589328] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.sh\n'}
+[12.622189] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.dsv\n'}
+[12.656453] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.667547] (-) TimerEvent: {}
+[12.689489] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.723023] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp\n'}
+[12.757182] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp\n'}
+[12.768569] (-) TimerEvent: {}
+[12.790368] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp\n'}
+[12.823110] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.hpp\n'}
+[12.855625] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp\n'}
+[12.869549] (-) TimerEvent: {}
+[12.888502] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.923003] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.955941] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.970548] (-) TimerEvent: {}
+[12.989801] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h\n'}
+[13.022414] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.055903] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.071559] (-) TimerEvent: {}
+[13.088804] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh\n'}
+[13.121485] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv\n'}
+[13.155754] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.172552] (-) TimerEvent: {}
+[13.190078] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.223537] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.256368] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.273549] (-) TimerEvent: {}
+[13.291442] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py\n'}
+[13.323811] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.356830] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.374557] (-) TimerEvent: {}
+[13.389703] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.422320] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/liblimo_msgs__rosidl_generator_py.so\n'}
+[13.455093] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.475558] (-) TimerEvent: {}
+[13.487751] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.520418] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.553869] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py\n'}
+[13.576548] (-) TimerEvent: {}
+[13.586475] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py\n'}
+[13.619136] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status_s.c\n'}
+[13.652832] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.653620] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.654303] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.655097] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rust_packages/limo_msgs\n'}
+[13.677556] (-) TimerEvent: {}
+[13.689740] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/Cargo.toml\n'}
+[13.722133] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/build.rs\n'}
+[13.755537] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/lib.rs\n'}
+[13.778555] (-) TimerEvent: {}
+[13.788201] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg.rs\n'}
+[13.821379] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg/rmw.rs\n'}
+[13.854571] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl\n'}
+[13.879556] (-) TimerEvent: {}
+[13.887281] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg\n'}
+[13.920303] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs\n'}
+[13.953865] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs\n'}
+[13.980557] (-) TimerEvent: {}
+[13.986798] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh\n'}
+[14.019957] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv\n'}
+[14.052381] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.sh\n'}
+[14.081564] (-) TimerEvent: {}
+[14.085156] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.dsv\n'}
+[14.117667] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.bash\n'}
+[14.150164] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.sh\n'}
+[14.182658] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.zsh\n'}
+[14.183061] (-) TimerEvent: {}
+[14.215683] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.dsv\n'}
+[14.248420] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.dsv\n'}
+[14.281626] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs\n'}
+[14.286556] (-) TimerEvent: {}
+[14.314870] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[14.347492] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.379968] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.387553] (-) TimerEvent: {}
+[14.412474] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.445133] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.477839] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.488547] (-) TimerEvent: {}
+[14.510828] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.543250] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[14.575924] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake\n'}
+[14.589556] (-) TimerEvent: {}
+[14.608933] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake\n'}
+[14.641411] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.xml\n'}
+[14.675456] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so\n'}
+[14.680269] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""\n'}
+[14.680629] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[14.682534] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.683008] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.684374] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.684675] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[14.686098] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.686468] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so\n'}
+[14.687835] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[14.688250] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[14.689717] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.689895] (-) TimerEvent: {}
+[14.690095] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so\n'}
+[14.691955] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[14.790566] (-) TimerEvent: {}
+[14.813557] (limo_msgs) StdoutLine: {'line': b"Listing '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs'...\n"}
+[14.813736] (limo_msgs) StdoutLine: {'line': b"Compiling '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py'...\n"}
+[14.813853] (limo_msgs) StdoutLine: {'line': b"Listing '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg'...\n"}
+[14.814005] (limo_msgs) StdoutLine: {'line': b"Compiling '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py'...\n"}
+[14.814109] (limo_msgs) StdoutLine: {'line': b"Compiling '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py'...\n"}
+[14.816942] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so\n'}
+[14.818488] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so" to ""\n'}
+[14.818776] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake\n'}
+[14.820098] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.821655] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.822845] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.824296] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.825385] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.826826] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.828031] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.829473] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.830782] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.832071] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.833489] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.834832] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.835865] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.837240] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.838240] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake\n'}
+[14.839692] (limo_msgs) StdoutLine: {'line': b'-- Installing: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.847160] (limo_msgs) CommandEnded: {'returncode': 0}
+[14.884794] (limo_msgs) JobEnded: {'identifier': 'limo_msgs', 'rc': 0}
+[14.887557] (limo_base) JobStarted: {'identifier': 'limo_base'}
+[14.891566] (-) TimerEvent: {}
+[14.944704] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'cmake'}
+[14.947434] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble')]), 'shell': False}
+[14.992552] (-) TimerEvent: {}
+[15.094817] (-) TimerEvent: {}
+[15.197567] (-) TimerEvent: {}
+[15.299567] (-) TimerEvent: {}
+[15.348609] (limo_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[15.400574] (-) TimerEvent: {}
+[15.501566] (-) TimerEvent: {}
+[15.606573] (-) TimerEvent: {}
+[15.658871] (limo_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[15.690483] (limo_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[15.707549] (-) TimerEvent: {}
+[15.809585] (-) TimerEvent: {}
+[15.911571] (-) TimerEvent: {}
+[16.013568] (-) TimerEvent: {}
+[16.115582] (-) TimerEvent: {}
+[16.213772] (limo_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[16.217544] (-) TimerEvent: {}
+[16.230259] (limo_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.230670] (limo_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[16.231146] (limo_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[16.234728] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.318582] (-) TimerEvent: {}
+[16.424572] (-) TimerEvent: {}
+[16.525576] (-) TimerEvent: {}
+[16.627593] (-) TimerEvent: {}
+[16.727570] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.728228] (-) TimerEvent: {}
+[16.743503] (limo_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.743927] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.744458] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.753027] (limo_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[16.828579] (-) TimerEvent: {}
+[16.929579] (-) TimerEvent: {}
+[17.033576] (-) TimerEvent: {}
+[17.134579] (-) TimerEvent: {}
+[17.235588] (-) TimerEvent: {}
+[17.336585] (-) TimerEvent: {}
+[17.353200] (limo_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[17.437576] (-) TimerEvent: {}
+[17.498381] (limo_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[17.539566] (-) TimerEvent: {}
+[17.548715] (limo_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[17.596258] (limo_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.601565] (limo_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.609584] (limo_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.621202] (limo_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.636868] (limo_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.640585] (-) TimerEvent: {}
+[17.686880] (limo_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.690289] (limo_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.742583] (-) TimerEvent: {}
+[17.844867] (-) TimerEvent: {}
+[17.946625] (-) TimerEvent: {}
+[18.049568] (-) TimerEvent: {}
+[18.099883] (limo_base) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.135508] (limo_base) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.152399] (-) TimerEvent: {}
+[18.195957] (limo_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.212061] (limo_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.252616] (-) TimerEvent: {}
+[18.354765] (-) TimerEvent: {}
+[18.455571] (-) TimerEvent: {}
+[18.559579] (-) TimerEvent: {}
+[18.660575] (-) TimerEvent: {}
+[18.695393] (limo_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.696353] (limo_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.761573] (-) TimerEvent: {}
+[18.863564] (-) TimerEvent: {}
+[18.964566] (-) TimerEvent: {}
+[19.065587] (-) TimerEvent: {}
+[19.166573] (-) TimerEvent: {}
+[19.194058] (limo_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.195894] (limo_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.256662] (limo_base) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[19.267570] (-) TimerEvent: {}
+[19.272336] (limo_base) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[19.291125] (limo_base) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.310503] (limo_base) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[19.321838] (limo_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[19.368767] (-) TimerEvent: {}
+[19.419140] (limo_base) StdoutLine: {'line': b'-- Found limo_msgs: 0.0.0 (/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake)\n'}
+[19.441561] (limo_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[19.455857] (limo_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[19.457236] (limo_base) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[19.459415] (limo_base) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[19.461577] (limo_base) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[19.469575] (-) TimerEvent: {}
+[19.570582] (-) TimerEvent: {}
+[19.643723] (limo_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.671609] (-) TimerEvent: {}
+[19.697809] (limo_base) StdoutLine: {'line': b'-- Generating done\n'}
+[19.720711] (limo_base) StdoutLine: {'line': b'-- Build files have been written to: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base\n'}
+[19.732047] (limo_base) CommandEnded: {'returncode': 0}
+[19.732760] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'build'}
+[19.732991] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base', '--', '-j8', '-l8'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble')]), 'shell': False}
+[19.772558] (-) TimerEvent: {}
+[19.873560] (-) TimerEvent: {}
+[19.975130] (-) TimerEvent: {}
+[20.075574] (-) TimerEvent: {}
+[20.133628] (limo_base) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o\x1b[0m\n'}
+[20.134304] (limo_base) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o\x1b[0m\n'}
+[20.135943] (limo_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o\x1b[0m\n'}
+[20.144604] (limo_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tf_pub.dir/src/tf_pub.cpp.o\x1b[0m\n'}
+[20.176576] (-) TimerEvent: {}
+[20.282613] (-) TimerEvent: {}
+[20.383605] (-) TimerEvent: {}
+[20.484619] (-) TimerEvent: {}
+[20.585640] (-) TimerEvent: {}
+[20.686640] (-) TimerEvent: {}
+[20.787867] (-) TimerEvent: {}
+[20.888617] (-) TimerEvent: {}
+[20.990621] (-) TimerEvent: {}
+[21.091620] (-) TimerEvent: {}
+[21.192631] (-) TimerEvent: {}
+[21.295633] (-) TimerEvent: {}
+[21.396618] (-) TimerEvent: {}
+[21.497623] (-) TimerEvent: {}
+[21.598626] (-) TimerEvent: {}
+[21.699629] (-) TimerEvent: {}
+[21.800628] (-) TimerEvent: {}
+[21.905613] (-) TimerEvent: {}
+[22.013634] (-) TimerEvent: {}
+[22.114619] (-) TimerEvent: {}
+[22.215615] (-) TimerEvent: {}
+[22.316612] (-) TimerEvent: {}
+[22.420641] (-) TimerEvent: {}
+[22.521620] (-) TimerEvent: {}
+[22.622627] (-) TimerEvent: {}
+[22.640864] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgileX::LimoDriver::parseFrame(const AgileX::LimoFrame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.641272] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kleft_wheel_odom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[22.641480] (limo_base) StderrLine: {'line': b'  298 |             int32_t \x1b[01;35m\x1b[Kleft_wheel_odom\x1b[m\x1b[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |\n'}
+[22.641679] (limo_base) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.641836] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:300:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kright_wheel_odom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[22.642011] (limo_base) StderrLine: {'line': b'  300 |             int32_t \x1b[01;35m\x1b[Kright_wheel_odom\x1b[m\x1b[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |\n'}
+[22.642173] (limo_base) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.652390] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgileX::LimoDriver::publishIMUData(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.652717] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:489:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpresent_theta_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[22.652908] (limo_base) StderrLine: {'line': b'  489 |         double \x1b[01;35m\x1b[Kpresent_theta_\x1b[m\x1b[K =imu_data_.yaw;\n'}
+[22.656843] (limo_base) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.657026] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:490:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_theta_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[22.657172] (limo_base) StderrLine: {'line': b'  490 |         double \x1b[01;35m\x1b[Klast_theta_\x1b[m\x1b[K = imu_data_.yaw;\n'}
+[22.657311] (limo_base) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.723623] (-) TimerEvent: {}
+[22.824620] (-) TimerEvent: {}
+[22.925617] (-) TimerEvent: {}
+[23.026622] (-) TimerEvent: {}
+[23.127641] (-) TimerEvent: {}
+[23.228858] (-) TimerEvent: {}
+[23.330390] (-) TimerEvent: {}
+[23.432870] (-) TimerEvent: {}
+[23.534121] (-) TimerEvent: {}
+[23.634608] (-) TimerEvent: {}
+[23.737615] (-) TimerEvent: {}
+[23.832895] (limo_base) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable tf_pub\x1b[0m\n'}
+[23.838579] (-) TimerEvent: {}
+[23.939605] (-) TimerEvent: {}
+[24.040662] (-) TimerEvent: {}
+[24.141610] (-) TimerEvent: {}
+[24.246721] (-) TimerEvent: {}
+[24.310202] (limo_base) StdoutLine: {'line': b'[ 83%] Built target tf_pub\n'}
+[24.351594] (-) TimerEvent: {}
+[24.452839] (-) TimerEvent: {}
+[24.556080] (-) TimerEvent: {}
+[24.656612] (-) TimerEvent: {}
+[24.759381] (-) TimerEvent: {}
+[24.861087] (-) TimerEvent: {}
+[24.961855] (-) TimerEvent: {}
+[25.065798] (-) TimerEvent: {}
+[25.171588] (-) TimerEvent: {}
+[25.272833] (-) TimerEvent: {}
+[25.374079] (-) TimerEvent: {}
+[25.479609] (-) TimerEvent: {}
+[25.584338] (-) TimerEvent: {}
+[25.685824] (-) TimerEvent: {}
+[25.786810] (-) TimerEvent: {}
+[25.892581] (-) TimerEvent: {}
+[25.996262] (-) TimerEvent: {}
+[26.098068] (-) TimerEvent: {}
+[26.199486] (-) TimerEvent: {}
+[26.305572] (-) TimerEvent: {}
+[26.406974] (-) TimerEvent: {}
+[26.512575] (-) TimerEvent: {}
+[26.614353] (-) TimerEvent: {}
+[26.718728] (-) TimerEvent: {}
+[26.819614] (-) TimerEvent: {}
+[26.922580] (-) TimerEvent: {}
+[27.023575] (-) TimerEvent: {}
+[27.124600] (-) TimerEvent: {}
+[27.225607] (-) TimerEvent: {}
+[27.326619] (-) TimerEvent: {}
+[27.383091] (limo_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable limo_base\x1b[0m\n'}
+[27.427567] (-) TimerEvent: {}
+[27.530645] (-) TimerEvent: {}
+[27.632606] (-) TimerEvent: {}
+[27.734596] (-) TimerEvent: {}
+[27.835566] (-) TimerEvent: {}
+[27.938581] (-) TimerEvent: {}
+[28.039558] (-) TimerEvent: {}
+[28.140556] (-) TimerEvent: {}
+[28.241601] (-) TimerEvent: {}
+[28.342576] (-) TimerEvent: {}
+[28.443605] (-) TimerEvent: {}
+[28.462186] (limo_base) StdoutLine: {'line': b'[100%] Built target limo_base\n'}
+[28.505386] (limo_base) CommandEnded: {'returncode': 0}
+[28.506541] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'install'}
+[28.506893] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base'], 'cwd': '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble'), ('PWD', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/opt/ros/humble')]), 'shell': False}
+[28.544569] (-) TimerEvent: {}
+[28.559548] (limo_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.562583] (limo_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.569582] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_driver.h\n'}
+[28.606710] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_protocol.h\n'}
+[28.640591] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/serial_port.h\n'}
+[28.645553] (-) TimerEvent: {}
+[28.675651] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/limo_base\n'}
+[28.710231] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/tf_pub\n'}
+[28.746147] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/limo_base.launch.py\n'}
+[28.746516] (-) TimerEvent: {}
+[28.780088] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/open_ydlidar_launch.py\n'}
+[28.813729] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/start_limo.launch.py\n'}
+[28.846552] (-) TimerEvent: {}
+[28.849091] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_base_node.cpp\n'}
+[28.883033] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_driver.cpp\n'}
+[28.917638] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/serial_port.cpp\n'}
+[28.947568] (-) TimerEvent: {}
+[28.952427] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/tf_pub.cpp\n'}
+[28.987103] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/package_run_dependencies/limo_base\n'}
+[29.021621] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/parent_prefix_path/limo_base\n'}
+[29.048558] (-) TimerEvent: {}
+[29.056521] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.sh\n'}
+[29.090451] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.dsv\n'}
+[29.124769] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.sh\n'}
+[29.149557] (-) TimerEvent: {}
+[29.158817] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.dsv\n'}
+[29.192571] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.bash\n'}
+[29.226717] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.sh\n'}
+[29.250557] (-) TimerEvent: {}
+[29.261427] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.zsh\n'}
+[29.295515] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.dsv\n'}
+[29.329877] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.dsv\n'}
+[29.351558] (-) TimerEvent: {}
+[29.365022] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/packages/limo_base\n'}
+[29.399608] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.435350] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig.cmake\n'}
+[29.452559] (-) TimerEvent: {}
+[29.470231] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig-version.cmake\n'}
+[29.504342] (limo_base) StdoutLine: {'line': b'-- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.xml\n'}
+[29.543427] (limo_base) CommandEnded: {'returncode': 0}
+[29.553552] (-) TimerEvent: {}
+[29.564587] (limo_base) JobEnded: {'identifier': 'limo_base', 'rc': 0}
+[29.566659] (-) EventReactorShutdown: {}

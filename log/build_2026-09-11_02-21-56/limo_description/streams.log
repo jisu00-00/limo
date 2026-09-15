@@ -1,0 +1,63 @@
+[0.062s] Invoking command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description
+[0.574s] -- The C compiler identification is GNU 11.4.0
+[0.935s] -- The CXX compiler identification is GNU 11.4.0
+[0.969s] -- Detecting C compiler ABI info
+[1.587s] -- Detecting C compiler ABI info - done
+[1.605s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.606s] -- Detecting C compile features
+[1.606s] -- Detecting C compile features - done
+[1.613s] -- Detecting CXX compiler ABI info
+[2.180s] -- Detecting CXX compiler ABI info - done
+[2.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.197s] -- Detecting CXX compile features
+[2.201s] -- Detecting CXX compile features - done
+[2.211s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.867s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.040s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.090s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.287s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.306s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.308s] -- Added test 'lint_cmake' to check CMake code style
+[3.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.320s] -- Added test 'xmllint' to check XML markup files
+[3.330s] -- Configuring done
+[3.363s] -- Generating done
+[3.385s] -- Build files have been written to: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description
+[3.392s] Invoked command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description
+[3.398s] Invoking command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description -- -j8 -l8
+[3.663s] Invoked command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description -- -j8 -l8
+[3.711s] Invoking command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description
+[3.766s] -- Install configuration: ""
+[3.769s] -- Execute custom install script
+[3.777s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+[3.819s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+[3.855s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.dae
+[3.891s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.stl
+[3.926s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+[3.971s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+[4.012s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/model_display.rviz
+[4.048s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/urdf.rviz
+[4.087s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+[4.124s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+[4.162s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+[4.201s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+[4.246s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+[4.284s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+[4.324s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+[4.363s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+[4.404s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+[4.445s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+[4.487s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+[4.529s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+[4.566s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.sh
+[4.608s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.dsv
+[4.648s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.bash
+[4.686s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.sh
+[4.725s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.zsh
+[4.768s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.dsv
+[4.809s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.dsv
+[4.849s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/packages/limo_description
+[4.888s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+[4.931s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+[4.972s] -- Symlinking: /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.xml
+[5.016s] Invoked command in '/Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Users/jisu/Documents/LIMO_GAZEBO/ws_limo_humble/build/limo_description
